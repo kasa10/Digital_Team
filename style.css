@@ -10,7 +10,7 @@ a
 
 .menu
 {
-	position: absolute;
+	position: fixed;
   left: 0px;
   top: 0px;
 	background-color: #ffffff;
@@ -21,14 +21,14 @@ a
 
 .logo
 {
-	position: inherit;
+	position: absolute;
 	left: 25%;
 	top: 8%;
 }
 
 .menu a
 {
-  font-size: 24px;
+  font-size: 22px;
   font-family: 'Montserrat', sans-serif;
   color: rgb(0, 0, 0);
   line-height: 1.2;
@@ -54,7 +54,140 @@ a
 
 .str
 {
-	position: inherit;
+	position: absolute;
 	top: 21%;
 	left: 6%;
 }
+
+
+.help
+{
+	position: absolute;
+	top: 83%;
+	left: 6%;
+}
+
+
+.lenta
+{
+position: absolute;
+left: 21%;
+width: 79%;
+height: 100%;
+background-color: #ebecff;
+z-index: 2;
+}
+
+html
+{
+	background-color: #ebecff;
+}
+
+
+
+.lenta button
+{
+  border-radius: 5px;
+  background-color: #000ec1;
+  position: inherit;
+  left: 52%;
+  top: 9%;
+  width: 370px;
+  height: 47px;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 1.2;
+ font-size: 22px;
+}
+
+
+
+
+.block
+{
+	position: relative;
+	width: 77%;
+	height: 29%;
+    top: 21%;
+    left: 6%;
+    border-bottom: solid;
+     border-color: rgb(0, 1, 7);
+     margin-bottom: 50px; 
+}
+
+.block h2 
+{
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  
+}
+
+
+
+.text 
+{
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+display: inline-block;
+width: 65%;
+margin-right: 2%;
+height: 80%;
+}
+
+
+.photo
+{
+  background-color: rgb(184, 184, 184);
+  position: relative;
+  margin-right: 2%;
+  width: 130px;
+  height: 130px;
+  display: inline-block; 
+ margin-top: -1%;
+}
+
+
+.photo1
+{
+	position: absolute ;
+top: 80%;
+left: 0;
+z-index: 5;
+}
+
+.text1
+{
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  top: 82%;
+  margin-left: 40px;
+  position: absolute;
+}
+
+
+.zag
+{
+	font-size: 20px;
+	margin-top: 7%;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+	position: inherit;
+
+	margin-left: 6%;
+}
+
+
