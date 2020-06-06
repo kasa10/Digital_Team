@@ -53,14 +53,15 @@
 
       <a class="zag" style="margin-left: 32%;" href="">Рекомендуем</a>
 
- 	   <button onclick="window.location.href = '';">Проявить инициативу</button>
+ 	   <button onclick="window.location.href = 'login.html';">Проявить инициативу</button>
  
 
 
 
  <div class="block">
- 	<h2>Заголовок</h2>
- 	<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 	<h2>Создание парка отдыха</h2>
+ 	<p class="text">По итогам электронного голосования, будет выбрано место, составлена проектная документация и
+организован Парк. Эта инициатива позволяет привлечь к голосованию большие группы граждан, максимально учесть пожелания граждан и солидарно распределить ответственность за итоги голосования на лидеров общественного мнения, граждан и Администрацию города. </p>
  
 <div class="photo"></div>
 <div class="photo"></div>
@@ -68,11 +69,19 @@
 <img class="photo1"  src="img/like.png"> <p class="text1">999</p>
 <img class="photo1" style="margin-left: 135px;"  src="img/chat.png"> <p style="margin-left: 175px;" class="text1">999</p>
 <img class="photo1" style="margin-left: 300px;" src="img/share.png"> <p style="margin-left: 340px;" class="text1">999</p>
+<img class="photo1" style="margin-left: 90%;" src="img/view.png"> <p style="margin-left: 95%" class="text1">879</p>
  </div>
 
  <div class="block">
- 	<h2>Заголовок</h2>
- 	<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 	<h2>Создание детской площадки</h2>
+ 	<p class="text">Инициатива по созданию детской
+площадки, у другой группы граждан возникает
+инициатива по созданию спортивной
+площадки. На платформе граждане (в том числе и лидеры
+общественного мнения) самостоятельно определяют что
+построить в этом районе города путем голосования за инициативы. В дальнейшем инициатива,
+за которую проголосовало большее количество граждан
+направляется в Администрацию города на рассмотрение </p>
  
 <div class="photo"></div>
 <div class="photo"></div>
@@ -81,9 +90,9 @@
 
 <?php
  $jsonA = file_get_contents("JSON/people.json");
- $json = json_decode($jsonA,true);
- $J = $json['people'][1]['surname'];
- echo "<p class='text1'>  $J </p>";
+ $json = json_decode($jsonA);
+ $J = $json->people[0]->name;
+ echo "<p class='text1'>   999 </p>";
  ?> 
 
 
@@ -91,11 +100,20 @@
 <p style="margin-left: 175px;" class="text1">999</p>
 <img class="photo1" style="margin-left: 300px;" src="img/share.png"> 
 <p style="margin-left: 340px;" class="text1">999</p>
+<img class="photo1" style="margin-left: 90%;" src="img/view.png"> <p style="margin-left: 95%" class="text1">959</p>
+
  </div>
 
  <div class="block">
- 	<h2>Заголовок</h2>
- 	<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 	<h2>Созданию спортивной площадки</h2>
+ 	<p class="text">Инициатива по созданию спортивной
+площадки, у другой группы граждан возникает
+инициатива по созданию спортивной
+площадки. На платформе граждане (в том числе и лидеры
+общественного мнения) самостоятельно определяют что
+построить в этом районе города путем голосования за инициативы. В дальнейшем инициатива,
+за которую проголосовало большее количество граждан
+направляется в Администрацию города на рассмотрение</p>
  
 <div class="photo"></div>
 <div class="photo"></div>
@@ -103,6 +121,8 @@
 <img class="photo1"  src="img/like.png"> <p class="text1">999</p>
 <img class="photo1" style="margin-left: 135px;"  src="img/chat.png"> <p style="margin-left: 175px;" class="text1">999</p>
 <img class="photo1" style="margin-left: 300px;" src="img/share.png"> <p style="margin-left: 340px;" class="text1">999</p>
+<img class="photo1" style="margin-left: 90%;" src="img/view.png"> <p style="margin-left: 95%" class="text1">179</p>
+
  </div>
 
 
