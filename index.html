@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Лидер Алтай</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<?php
+ $jsonA = file_get_contents("JSON/people.json");
+ $json = json_decode($jsonA,true);
+ echo $json['people'][1]['surname'];
+ ?>
+
+
+
+
+
+
+
+ <div class="menu">
+ 	<img class="logo" src="img/logo.png">
+
+
+ 	<div class="str">
+ <ul>
+ 	<li><img src="img/user1.png"><a href="">Мой профиль</a></li>	
+ 	<li><img src="img/chat.png"><a href="">Сообщения</a></li>	
+ 	<li><img src="img/star.png"><a href="">Достижения</a></li>
+ 	<li><img src="img/img1.png"><a href="">Тут текст</a></li>	
+ 	<li><img src="img/img1.png"><a href="">Тут текст</a></li> 
+</ul>
+ 	</div>
+
+ </div>
+
+</body>
+</html>

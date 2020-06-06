@@ -1,0 +1,70 @@
+{
+    "People" : [
+    {
+    "id": 87938741, //идентификатор
+    "password": "428347",
+    "surname": "Иванов",
+    "name": "Иван",
+    "lastname": "Иванович",
+    "burth": "02.10.1995", //дата рождения
+    "region": "Республика Алтай",
+    "district": "Горно-Алтайск",
+    "town": "Горно-Алтайск",
+    "phone": "89037394581",
+    "description": "Описание личности",
+    "activity": "Деятельность",
+    "computed": {
+            "subjectivity": "субъективность",
+            "authority": "авторитетность",
+            "reputation": "репутация",
+            "professionality": "профессионализм" },
+    "activity_list": ["post_id_1", "post_id_2", "post_id_4"], //список активности - идентификаторы постов
+    "photo": "https://img0cf.b8cdn.com/images/uploads/user_photos/58/8159258_20181115171334.jpeg", //аватарочка
+    "registered_date": "05.06.2020" //дата регистрации
+    },
+    {
+    "id": 87938742, //идентификатор
+    "password": "428347",
+    "surname": "Мишин",
+    "name": "Николай",
+    "lastname": "Михайлович",
+    "burth": "02.11.1999", //дата рождения
+    "region": "Республика Алтай",
+    "district": "Майминский район",
+    "town": "Село Кызыл-Озёк",
+    "phone": "89837355912",
+    "description": "Описание личности",
+    "activity": "Деятельность",
+    "computed": {
+            "subjectivity": "субъективность",
+            "authority": "авторитетность",
+            "reputation": "репутация",
+            "professionality": "профессионализм" },
+    "activity_list": ["post_id_1", "post_id_2", "post_id_4"], //список активности - идентификаторы постов
+    "photo": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/015fd2cfc4fda7f78a4558a951255405-1536059841336/51bac7b1-f248-43b7-a5a4-700341391001.png", //аватарочка
+    "registered_date": "06.06.2020" //дата регистрации
+    },
+    {
+    "id": 87938743, //идентификатор
+    "password": "428347",
+    "surname": "Петрова",
+    "name": "Юлия",
+    "lastname": "Анатольевна",
+    "burth": "02.10.1981", //дата рождения
+    "region": "Республика Алтай",
+    "district": "Кош-Агачский район",
+    "town": "Село Кокоря",
+    "phone": "89837355912",
+    "description": "Описание личности",
+    "activity": "Деятельность",
+    "computed": {
+            "subjectivity": "субъективность",
+            "authority": "авторитетность",
+            "reputation": "репутация",
+            "professionality": "профессионализм" },
+    "activity_list": ["post_id_1", "post_id_2", "post_id_4"], //список активности - идентификаторы постов
+    "photo": "https://www.frewsburgcsd.org/cms/lib/NY02214391/Centricity/Domain/1196/teach.png", //аватарочка
+    "registered_date": "01.06.2020" //дата регистрации
+    },
+]
+}

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>pages/Board.qml</file>
+        <file>pages/AddingProblem.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>images/006-user-1.png</file>
+        <file>images/108-chat.png</file>
+        <file>images/logo.png</file>
+        <file>images/star.png</file>
+    </qresource>
+</RCC>

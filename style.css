@@ -1,0 +1,60 @@
+*
+{
+	margin: 0;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.menu
+{
+	position: absolute;
+  left: 0px;
+  top: 0px;
+	background-color: #ffffff;
+	width: 21%;
+	height: 100%;
+}
+
+
+.logo
+{
+	position: inherit;
+	left: 25%;
+	top: 8%;
+}
+
+.menu a
+{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.menu ul
+{
+	list-style-type: none;
+}
+
+.menu li
+{
+	 margin-bottom: 50px;
+}
+
+.menu li img
+{
+	 margin-right: 10px;
+	 position: relative;
+	 bottom: -5px;
+}
+
+.str
+{
+	position: inherit;
+	top: 21%;
+	left: 6%;
+}
