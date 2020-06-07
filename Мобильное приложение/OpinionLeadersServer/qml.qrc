@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>HomeForm.ui.qml</file>
+        <file>Page1Form.ui.qml</file>
+        <file>Page2Form.ui.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>images/006-user-1.png</file>
+        <file>images/006-user-1.svg</file>
+        <file>images/020-share.svg</file>
+        <file>images/024-loupe.svg</file>
+        <file>images/108-chat.png</file>
+        <file>images/cup.svg</file>
+        <file>images/facebook.svg</file>
+        <file>images/gosuslugi.png</file>
+        <file>images/initiate.png</file>
+        <file>images/initiate-pressed.png</file>
+        <file>images/like.svg</file>
+        <file>images/logo.png</file>
+        <file>images/odnoklassniki.svg</file>
+        <file>images/photo.svg</file>
+        <file>images/star.png</file>
+        <file>images/star.svg</file>
+        <file>images/view.svg</file>
+        <file>images/vk.svg</file>
+        <file>images/stack/Outline_Map_of_Altai_Republic.svg</file>
+        <file>Page3Form.ui.qml</file>
+    </qresource>
+</RCC>

@@ -1,25 +1,19 @@
 import QtQuick 2.6
-import QtQuick.Controls 2.0
+import QtQuick.Controls 2.12
+import QtMultimedia 5.12
 
 Page {
-    id: page
-    Text {
-        id: element
-        y: 10
-        height: 37
-        text: qsTr("Обратить внимание")
-        horizontalAlignment: Text.AlignHCenter
-        anchors.right: parent.right
-        anchors.rightMargin: 15
-        anchors.left: parent.left
-        anchors.leftMargin: 11
-        font.pixelSize: 27
-    }
+    id: pageAddingProblem
 
+    StackView {
+        anchors.fill: parent
+        id: addingProblemStackController        
+        initialItem: ProblemForm {}
+    }
 }
 
 /*##^##
 Designer {
-    D{i:0;autoSize:true;height:480;width:640}D{i:1;anchors_width:614;anchors_x:11}
+    D{i:0;autoSize:true;formeditorZoom:1.25;height:480;width:640}D{i:1;anchors_height:200;anchors_width:200;anchors_x:0;anchors_y:0}
 }
 ##^##*/

@@ -3,11 +3,33 @@
         <file>main.qml</file>
         <file>pages/Board.qml</file>
         <file>pages/AddingProblem.qml</file>
+        <file>pages/PopularOpinions.qml</file>
+        <file>pages/ProblemForm.qml</file>
+        <file>pages/CameraController.qml</file>
+        <file>Engine.js</file>
+        <file>DebugForm.qml</file>
+        <file>images/stack/fea9d400.jpg</file>
+        <file>images/stack/park-jakubowy-8.jpg</file>
+        <file>images/stack/s1200.jpg</file>
+        <file>pages/Profile.qml</file>
+        <file>images/gosuslugi.png</file>
+        <file>images/stack/001-nga-56.jpg</file>
     </qresource>
     <qresource prefix="/images">
-        <file>images/006-user-1.png</file>
         <file>images/108-chat.png</file>
         <file>images/logo.png</file>
         <file>images/star.png</file>
+        <file>images/initiate.png</file>
+        <file>images/initiate-pressed.png</file>
+        <file>images/photo.svg</file>
+        <file>images/006-user-1.svg</file>
+        <file>images/020-share.svg</file>
+        <file>images/024-loupe.svg</file>
+        <file>images/facebook.svg</file>
+        <file>images/like.svg</file>
+        <file>images/odnoklassniki.svg</file>
+        <file>images/view.svg</file>
+        <file>images/vk.svg</file>
+        <file>images/cup.svg</file>
     </qresource>
 </RCC>
