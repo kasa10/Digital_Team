@@ -351,6 +351,107 @@ top: 230px;
   position: absolute;
   left: 10%;
   top: 20%;
-  width: 325px;
-  height: 325px;
+  width: 320px;
+  height: 320px;
+}
+
+
+.lk1
+{
+font-size: 24px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  left: 10%;
+  position: relative;
+  margin-right: 20%;
+  display: inline-block;
+  margin-top: 5%;
+
+}
+
+
+
+.vvod2
+{
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  width: 370px;
+  height: 30px;
+  margin-bottom: 30px;
+  z-index: 254;
+}
+
+.lk2
+{
+	position: absolute;
+	left: 45%;
+	top: 22%;
+
+}
+
+
+
+
+.lk2p {
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+  left: 78%;
+	top: 11%;
+	  font-weight: bold;
+	  margin-bottom: 49px;
+
+}
+
+
+.vvod3
+{
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  width: 370px;
+  height: 30px;
+  margin-bottom: 30px;
+  z-index: 254;
+  left: 10%;
+  top: 10%;
+}
+
+.lenta textarea
+{
+	position: absolute;
+	top: 35%;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 550px;
+  height: 210px;
+  left: 10%;
+
+
+  font-family: "Montserrat";
+  color: rgb(177, 177, 182);
+  line-height: 1.2;
+  text-align: left;
+  
+
+}
+
+
+.txt3
+{
+	position: absolute;
+	left: 42%;
+	top: 23%;
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  
+font-weight: bold;
 }
